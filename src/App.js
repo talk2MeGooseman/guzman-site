@@ -66,6 +66,7 @@ function App() {
                   <li>PostgresSQL</li>
                   <li>Heroku</li>
                   <li>Elixir / Phoenix Framework</li>
+                  <li>Dokku</li>
                 </ul>
               </div>
             </div>
