@@ -15,7 +15,7 @@ const expEarned = () => {
   }
 
   const diff = end.getTime() - today.getTime();
-  return (Math.floor(diff/(1000*60*60*24))/ 365) * 100;
+  return 100 - ((Math.floor(diff/(1000*60*60*24))/ 365) * 100);
 }
 
 function App() {
